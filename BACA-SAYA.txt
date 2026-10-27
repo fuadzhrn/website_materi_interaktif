@@ -1,0 +1,51 @@
+BELAJAR CERIA BERSAMA KANCIL
+Materi interaktif untuk anak SD kelas 1–3
+=========================================
+
+CARA MEMBUKA
+1. Ekstrak (unzip) file ZIP ini.
+2. Buka folder "materi-interaktif-sd".
+3. Klik dua kali file "index.html". Website langsung terbuka di browser.
+   Tidak perlu internet dan tidak perlu instal apa pun.
+
+Saran browser: Google Chrome, Microsoft Edge, atau Safari versi terbaru.
+Suara pembaca bahasa Indonesia bergantung pada perangkat. Biasanya sudah
+tersedia di HP Android, iPhone/iPad, dan Chrome di laptop.
+
+ISI WEBSITE
+- Ayo Berhitung     : menghitung benda (1–5, 1–10) dan penjumlahan
+- Susun Huruf       : menyusun huruf acak menjadi kata (kata pendek & panjang)
+- Cocokkan Gambar   : hewan & makanannya, benda & warnanya, tebak suara hewan
+- Kenal Huruf & Angka: huruf A–Z, angka 1–10, dan kuis tebak
+
+STRUKTUR FOLDER
+index.html          beranda
+berhitung.html      modul Ayo Berhitung
+susun-huruf.html    modul Susun Huruf
+cocokkan.html       modul Cocokkan Gambar
+kenal-huruf.html    modul Kenal Huruf & Angka
+kredit.html         kredit & lisensi
+css/style.css       semua tampilan (warna, ukuran, responsif)
+js/data.js          SEMUA ISI SOAL & MATERI  <-- edit di sini untuk menambah soal
+js/common.js        fungsi bersama (suara, bintang, confetti)
+js/*.js             logika tiap modul
+assets/icons/       ikon Twemoji (SVG)
+assets/images/      maskot Kancil & ilustrasi (SVG buatan sendiri)
+assets/fonts/       font Poppins & Montserrat + lisensinya
+
+MENAMBAH SOAL
+Buka js/data.js dengan editor teks (Notepad, VS Code, dll).
+Contoh menambah kata di Susun Huruf:
+    { kata: "KAMBING", ikon: "1f410" },
+"ikon" adalah nama file di folder assets/icons tanpa ".svg".
+Untuk ikon baru, unduh file SVG dari https://github.com/jdecked/twemoji
+(folder assets/svg) lalu taruh di assets/icons.
+
+MENGONLINEKAN (opsional, gratis)
+Unggah seluruh isi folder ke GitHub Pages, Netlify (drag & drop folder),
+atau Vercel. Setelah itu website bisa dibuka lewat link.
+
+LISENSI
+Ikon Twemoji: CC BY 4.0 (wajib mencantumkan kredit, sudah ada di kredit.html).
+Font Poppins & Montserrat: SIL Open Font License 1.1.
+Maskot & ilustrasi: karya asli untuk proyek ini.
